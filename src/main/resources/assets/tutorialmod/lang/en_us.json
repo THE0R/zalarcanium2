@@ -1,5 +1,8 @@
 {
   "item.tutorialmod.eyeofhelena": "Eye of Helena",
   "item.tutorialmod.helmetofhelena": "Helmet of Helena",
+
+  "block.tutorialmod.copper_resonance_base": "Copper Resonance Base",
+
   "creativetab.tutorial_tab": "Zalarcanium"
 }

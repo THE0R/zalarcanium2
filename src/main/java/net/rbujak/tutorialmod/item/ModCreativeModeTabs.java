@@ -8,6 +8,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 import net.rbujak.tutorialmod.TutorialMod;
+import net.rbujak.tutorialmod.block.ModBlocks;
 
 import java.awt.*;
 
@@ -21,6 +22,8 @@ public class ModCreativeModeTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.EYE_OF_HELENA.get());
                         pOutput.accept(ModItems.HELMET_OF_HELENA.get());
+
+                        pOutput.accept((ModBlocks.COPPER_RESONANCE_BASE.get()));
                     })
                     .build());
 
