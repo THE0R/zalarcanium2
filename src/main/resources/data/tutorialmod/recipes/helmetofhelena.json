@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "#$#",
+    "   "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:copper_ingot"
+    },
+    "$": {
+      "item": "tutorialmod:eyeofhelena"
+    }
+  },
+  "result" : {
+    "item": "tutorialmod:helmetofhelena"
+  }
+}

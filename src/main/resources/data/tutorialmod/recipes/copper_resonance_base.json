@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "#$#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:copper_ingot"
+    },
+    "$": {
+      "item": "minecraft:amethyst_shard"
+    }
+  },
+  "result" : {
+    "item": "tutorialmod:copper_resonance_base"
+  }
+}
